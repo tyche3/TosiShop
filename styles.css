@@ -1,0 +1,260 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #cccccc99;
+  font-family: Satoshi;
+  color: #333333;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.nav-bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.middle-nav-bar {
+}
+
+.middle-nav-bar h1 {
+  text-align: center;
+}
+
+.right-nav-bar {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.nav-bar a:hover {
+  color: #333333;
+  transition: 0.5s;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero-image {
+  width: 50rem;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.first-section img {
+  width: 25rem;
+  transition-duration: 1s;
+  transition-property: transform, filter;
+  cursor: pointer;
+}
+
+.first-section img:hover {
+  transform: scale(1.09);
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+}
+
+.first-section button {
+  width: 80px;
+  height: 35px;
+  background-color: #0076df;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  transition-property: background-color;
+}
+
+.first-section button:hover {
+  background-color: #005baa;
+}
+
+.phones-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  border-radius: 16px;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+
+.accessories-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+
+.second-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: white;
+  height: 100%;
+  width: 30.4%;
+  padding: 20px 20px;
+}
+
+.product-container img {
+  width: 15rem;
+  align-self: center;
+  margin: 20px;
+}
+
+.price-container {
+  margin-top: 20px;
+}
+
+.product-container button {
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0076df;
+  color: white;
+  align-self: flex-end;
+  cursor: pointer;
+  margin-top: 60px;
+  transition-duration: 0.25s;
+  transition-property: background-color;
+}
+
+.product-container button:hover {
+  background-color: #005baa;
+}
+
+.product-container p {
+  color: #666666;
+}
+
+.third-section {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 16px;
+}
+
+.third-section button {
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff007f;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  transition-property: background-color;
+}
+
+.third-section button:hover {
+  background-color: #c40062;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.left-footer-section {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.middle-footer-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.middle-footer-section h2 {
+  padding-bottom: 10px;
+}
+
+.middle-footer-section a {
+  color: #666666;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
+.middle-footer-section a:hover {
+  color: #333333;
+}
+
+.right-footer-section {
+  padding-top: 20px;
+  padding-right: 20px;
+}
